@@ -1,0 +1,17 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    margin: 0;
+}
+
+.content{ 
+    grid: content;
+
+}
+
+.sidebar{ 
+    grid-area: sidebar;
+    background-color: blueviolet;
+    justify-self: center;
+}
+
