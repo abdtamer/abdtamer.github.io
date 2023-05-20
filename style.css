@@ -3,6 +3,10 @@ body{
     background-color: rgb(144, 144, 141);
     margin: 1;
 }
+.item {
+background: lightblue;
+margin:0.5cm
+}
 
 
 
