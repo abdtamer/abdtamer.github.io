@@ -1,3 +1,16 @@
+header {
+background-color: #d4c07c;
+width:100%;
+Position: fixed;
+z-index: 999;
+display:flex;
+justify-content:space-between;
+align-items: center;
+padding: 10px 200px;
+}
+
+
+
 body {
     background-color: rgb(133, 118, 76);
 }
@@ -48,11 +61,12 @@ body {
 
 .footer{
     display: flex;
+    
     justify-content: left;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    background-color: rgb(40, 168, 211);
+    background-color: rgb(93, 199, 235);
     color: rgb(1, 1, 20);
 }
