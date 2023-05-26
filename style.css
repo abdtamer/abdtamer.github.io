@@ -13,13 +13,26 @@ padding: 10px 200px;
 
 body {
     background-color: rgb(133, 118, 76);
+    
+}
+
+.navigation a{
+    color: #000;
+    text-decoration: none;
+    font: size 200px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 22fr 3fr;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    grid-template-columns: fr 3fr;
     grid-template-rows:2fr 2fr
 
 
